@@ -16,7 +16,7 @@ var data =[
 ]
 
 function seedDB(){ 
-    //remove all camgrounds
+    //remove all podcasts
     Podcast.remove({}, function (err){
     if(err){
         console.log(err);
